@@ -1,0 +1,86 @@
+
+* {
+    font-family: 'Markazi Text';
+    font-weight: 400;
+  }
+
+  @supports (font-variation-settings: "wght" 450) {
+    * {
+      font-family: 'Markazi Text';
+      font-weight: 450;
+    }
+  }
+  .hero_image{
+    background:url("rahullpp.avif") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    
+  }
+ 
+  .wrap{
+    color: white ;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wrap h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.form_code{
+    text-align: center;
+}
+.form_code .post{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 2rem;
+    padding:.6rem;
+    border: none;
+    outline:none;
+}
+.wrap span{
+    margin-left: .5rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.form_code button{
+    width: 40%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto ;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    padding: .6rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .3rem
+}
+
+img{
+   margin-left: 2rem;
+     width: 300px;
+         height: 300px;
+}
+.product_list{
+     margin-top: 3rem;
+        display: block;
+            padding: 0;
+                float: left;
+                width: 25%;
+}
+p{
+    color: rgb(58, 50, 2);
+    text-align: center;
+    font-weight: 600;
+}
+h1{
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+
